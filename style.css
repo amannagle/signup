@@ -6,10 +6,22 @@
 body
 {
     display: flex;
+    justify-content: space-between;
 }
 
-#backgroundimage
-{
-    width: 30vw;
+.image{
+    display: flex;
     height: 100vh;
+    width: 35vw;
+    margin-right: 30px;
+}
+
+
+#backgroundimage{
+    height: 100vh;
+    width: 35vw;
+}
+
+.paragraphs{
+    padding: 10px;
 }
