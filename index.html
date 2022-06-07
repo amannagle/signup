@@ -30,33 +30,42 @@
         </div>
         <section class="form">
             <h3>Lets do this!</h3>
-            <form method="post">
-                <div>
-                    <label for="firstname">FIRST NAME</label>
-                    <input type="text" id="firstname" name="firstname">
-                </div>
-                <div>
-                    <label for="lastname">LAST NAME</label>
-                    <input type="text" id="lastname" name="lastname">
-                </div>
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div>
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" name="phone">
-                </div>
-                <div>
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
-                </div>
-                <div>
-                    <label for="confirmPassword">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirmPassword" name="confirmPassword">
-                </div>
-            </form>
-        </section>
+            <form method="get" action="#">
+                
+                <div class="formfields">
+                    <div>
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                    </div>
+                    <div>
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div>
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                </div>     
+        
+        </form>
+
+    </section>
+    <div class="bottom">
+            <button type="submit" id="submit">Create Account</button>
+            <p>Already have an account?<a href="#"> Log in</a></p>
+        </div>
     </div>
         
 
