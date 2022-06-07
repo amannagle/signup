@@ -7,24 +7,60 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Roboto:ital,wght@0,700;1,100&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="image">
     <img src="img.jpg" alt="backgroundimage" id="backgroundimage"/>
     </div>
-    <div class="paragraphs">
-        <div class="para1">
-        <p>
-            Signup to our wonderful service inorder to recieve newsletters and information about
-            everything that is happening in the wilderness of Africa.
-            We provide latest information about the bigcats and all the clans that are active with 
-            changes to their personnel and territory.
-        </p>
+    <div class="content">
+        <div class="paragraphs">
+            <div class="para1">
+            <p>
+                Signup to our wonderful service inorder to recieve newsletters and information about
+                everything that is happening in the wilderness of Africa.We provide latest information about species that you have an interest in.
+                Signup now to get started.
+            </p>
+            </div>
+            <div class="para2">
+                <p>Lets get you signed up!</p>
+            </div>
         </div>
-        <div class="para2">
-            <p>Lets get you signed up!</p>
-        </div>
+        <section class="form">
+            <h3>Lets do this!</h3>
+            <form method="post">
+                <div>
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+                <div>
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div>
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword">
+                </div>
+            </form>
+        </section>
     </div>
+        
+
+    
     
 </body>
 </html>
